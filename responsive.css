@@ -1,0 +1,153 @@
+/* ==========Responsive========== */
+
+@media screen and (max-width:450px){
+    header h1 {
+        font-size: 24px;
+      }
+
+      #main-search {
+        margin: 0px 5px;
+      }
+
+      #search-heading h2{
+        font-size: 16px;
+      }
+
+      #search-box {
+        row-gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      #search-box #sclear{
+        padding: 12px 0px;
+        width: 100%;
+      }
+    
+      #search-box #sclear input {
+        padding: 15px;
+        font-size: 16px;
+      }
+
+      #search-box #sclear #clear{
+        right: 5%;
+        font-size: 50px;
+      }
+
+      .btn {
+        padding: 12px 0;
+        font-size: 15px;
+        width: 140px;
+      }
+
+      #result-container {
+        margin: 0px 5px;
+      }
+
+      .card {
+        flex-wrap: wrap;
+      }
+
+      li .liItems h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      li .liItems p {
+        font-size: 16px;
+      }
+
+      li {
+        height: auto;
+      }
+
+      #result-container #centerName {
+        width: 100%;
+      }
+      
+      #result-container #stateName {
+        width: 46vw;
+      }
+
+      #result-container #cityName {
+        width: 46vw;
+      }
+
+      #result-container .nameliItems {
+        width: 100%;
+      }
+
+      #result-container .cityliItems {
+        width: 46%;
+      }
+
+      #result-container .stateliItems {
+        width: 46%;
+      }
+}
+
+
+@media screen and (max-width:1000px) and (min-width: 450px) {
+    header h1 {
+        font-size: 30px;
+      }
+
+      #main-search {
+        margin: 0px 10px;
+      }
+
+      #search-heading h2{
+        font-size: 18px;
+      }
+
+      #search-box {
+        row-gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      #search-box #sclear {
+        padding: 18px 0px;
+        width: 100%;
+      }
+
+      #search-box #sclear input {
+        padding: 15px 30px;
+      }
+
+      .btn {
+        padding: 20px 0;
+        font-size: 15px;
+        width: 140px;
+      }
+
+      #result-container {
+        margin: 0px 5px;
+      }
+
+      li .liItems h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      li .liItems p {
+        font-size: 16px;
+      }
+
+      li .liItems {
+        padding: 0px;
+      }
+}
+
+@media screen and (max-width:1250px) and (min-width: 1001px){
+  #search-box {
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  #sclear {
+    width: 100%;
+  }
+
+}

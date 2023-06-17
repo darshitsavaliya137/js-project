@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/rocket-web-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>ISRO Centres</title>
+  </head>
+  <body>
+    <!-- ==========Head Section========== -->
+    <header class="fc">
+      <img src="/img/head-icon.png" alt="" />
+      <h1 class="tc">
+        <span>I</span>ndian <span>S</span>pace <span>R</span>esearch
+        <span>O</span>rganization
+      </h1>
+    </header>
+
+    <!-- ==========Search Section========== -->
+    <section id="main-search">
+      <div id="search-heading" class="card">
+        <h2>Search for ISRO centres based on place, state and name</h2>
+      </div>
+
+      <div id="search-box">
+        <div id="sclear">
+          <input
+            id="search-input"
+            class="card"
+            type="search"
+            placeholder="Search City Name Hear..."
+          />
+          <span id="clear">&times;</span>
+        </div>
+        <button id="search-btn" class="card btn fc">
+          <i id="search-icon" class="uil uil-search-alt"></i> Search
+        </button>
+        <button id="city-btn" class="card btn active">City</button>
+        <button id="state-btn" class="card btn">State</button>
+        <button id="center-btn" class="card btn">Center</button>
+      </div>
+    </section>
+
+    <!-- ==========Result Section========== -->
+    <section id="result-container"></section>
+
+    <!-- ==========JavaScript========== -->
+    <script src="app.js"></script>
+  </body>
+</html>
+
